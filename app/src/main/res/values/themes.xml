@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GuidedAccess" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand</item>
+    </style>
+
+    <!-- 접근성 오버레이(잠금 화면, 영역 편집기 등)에 쓰이는 어두운 테마 -->
+    <style name="Theme.GuidedAccess.Overlay" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/brand_light</item>
+    </style>
+</resources>
